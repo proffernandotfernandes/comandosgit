@@ -1,23 +1,17 @@
-\#Comandos do Git
+# Sequência de comandos do Git
 
-* Criar repositório
+### Criar repositório
+* git init
 
-git init
+### Verificar o status
+Mostra os arquivos modificados, não controlados (_untracked_) e preparados a _commit_ (_staging area_)
+* git status
 
-* Adicionar arquivos da pasta atual
+### Adicionar todos arquivos modificados e novos para a _staging area_
+* git add .
 
-git add .
+### Confirmar alterações, criando um commit local
+* git commit -m "Criei o arquivo README"
 
-* Verificar status
-
-git status
-
-* Confirmar alterações
-
-git commit -m "Criei o arquivo README"
-
-* Enviar os arquivos para o GitHub
-
-git push origin main
-
-* git log
+### Enviar os commits para o GitHub (branch main)
+* git push origin main
